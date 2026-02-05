@@ -1,46 +1,48 @@
 .wrapper {
-    position: fixed;
-    inset: 0;
-    /* top:0; right:0; bottom:0; left:0 */
+  position: fixed;
+  inset: 0;
+  /* top:0; right:0; bottom:0; left:0 */
 
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 
-    overflow: hidden;
+  overflow: hidden;
 
-    background: linear-gradient(135deg, #0f172a, #1e293b);
+  background: linear-gradient(135deg, #0f172a, #1e293b);
 }
 
 .button {
-    padding: 14px 28px;
-    font-size: 1rem;
-    font-weight: 600;
+  padding: 14px 28px;
+  font-size: 1rem;
+  font-weight: 600;
 
-    border: none;
-    border-radius: 10px;
+  border: none;
+  border-radius: 10px;
 
-    background: linear-gradient(135deg, #6366f1, #8b5cf6);
-    color: #fff;
+  background: linear-gradient(135deg, #6366f1, #8b5cf6);
+  color: #fff;
 
-    cursor: pointer;
-    transition: transform 0.15s ease, box-shadow 0.15s ease;
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+  cursor: pointer;
+  transition:
+    transform 0.15s ease,
+    box-shadow 0.15s ease;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
 }
 
 .button:hover {
-    transform: translateY(-2px);
-    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.2);
+  transform: translateY(-2px);
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.2);
 }
 
 .button:active {
-    transform: translateY(0);
-    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+  transform: translateY(0);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
 }
 
 .button:focus-visible {
-    outline: 3px solid #c7d2fe;
-    outline-offset: 4px;
+  outline: 3px solid #c7d2fe;
+  outline-offset: 4px;
 }
 
 .card {
