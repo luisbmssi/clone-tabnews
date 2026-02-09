@@ -1,7 +1,7 @@
 import { useState } from "react";
 import Lottie from "lottie-react";
-import animationData from "../../public/like.json";
-import styles from "../../styles/letter.module.css";
+import animationData from "public/like.json";
+import styles from "styles/letter.module.css";
 
 function ThePage() {
   const [show, setShow] = useState(false);
